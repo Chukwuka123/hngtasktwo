@@ -1,0 +1,37 @@
+.logo{align-items: center; display: flex;justify-content: center;
+width: Hug (186px) ;height: Hug (50px) ;margin-top: 2px;}
+.moviebox{
+    z-index: 1;
+        /* Stay on top */
+        top: 0;
+        /* Stay at the top */
+        left: 0;
+    border: 1px solid black;position: fixed;overflow-x: hidden;padding-top: 20px;
+    width: 226px; height: 100%;border-top-right-radius: 45px;border-bottom-right-radius: 45px;
+}
+.ticket-button{background-color:#ebcfd5;color:#BE123C;border-color: transparent;
+    width: 112px; height: 30px ;margin-left: 29px ;border-radius: 30px;
+}
+.ticket-text{
+    Width:137px;margin-left:16px; Height:69px;font-family: Poppins;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+}
+.tickets{margin-top: 90px;
+    width: 170px; height: 228px;  margin-left: 28px ;border: 1px solid #BE123C; background:#F8E7EB;border-radius: 20px;margin-bottom: 30px;
+}
+.menu-links a{padding: 6px 8px 6px 16px; align-items: left;justify-content: center;
+color: black; display: flex;cursor: pointer;text-decoration: none; vertical-align: text-top ;
+}
+.menu-links a:hover{
+background-color: #F8E7EB;color: #BE123C;
+border-right:6px solid #BE123C; width: 226px;height: 58px;
+}
+.logout-menu a{display: flex;
+    cursor: pointer;
+    text-decoration: none;color:black;
+justify-content: center;align-items: center;justify-self: center;
+}
